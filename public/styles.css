@@ -1,0 +1,32 @@
+body {
+    background-color: #000; /* Fondo negro */
+    font-family: 'Pacifico', cursive; /* Fuente personalizada */
+    height: 100vh; /* Altura del 100% de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-card {
+    background-color: #333; /* Fondo de la tarjeta */
+    color: #ffe600; /* Texto rojo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.error-image {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
